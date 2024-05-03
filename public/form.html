@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Account Login</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is v4 fontawesome cdn-->
+    <script src="https://use.fontawesome.com/efcb6191f0.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/container.css  ">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Account Login</div>
+        <i class="fa fa-bars icon" class="icon" id="click" onclick="show()"></i>
+        <ul id="menu-bar">
+         
+            <li class="list"><a href="login.html" class="link auth-btn left-size">Login</a></li>
+
+            <li class="list"><a href="form.html" class="link auth-btn2">Register</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="login-container">
+
+            <div class="login-data">
+                <h1>Account Signup</h1>
+                <hr>
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input id="fullName" type="text" required placeholder="fullName">
+                </div>
+                <div class="input-field" style="margin-top: 30px;">
+                    <i class="fa fa-user"></i>
+                    <input id="email" required type="email" placeholder="Enter your email">
+                </div>
+
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input id="password" type="password" required placeholder="Enter your password">
+                </div>
+                
+                <span style="font-size: 16px; "><input type="checkbox" id="check"><label for="check"
+                        style="cursor: pointer;position:relative;bottom:3px;"> I agree terms and
+                        condition</label></span>
+                <br><br><button id="register" class="color-brown" style="margin-bottom: 10px;">Register</button>
+
+
+
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+</body>
+
+</html>
